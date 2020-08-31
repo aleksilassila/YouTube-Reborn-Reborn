@@ -1,0 +1,9 @@
+Package: me.aleksilassila.youtubereborn
+Name: Youtube Reborn
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Aleksi Lassila
+Author: Aleksi Lassila
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
