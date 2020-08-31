@@ -8,22 +8,18 @@ HBPreferences *preferences;
 %group gNoVideoAds
 %hook YTIPlayerResponse
 - (BOOL)isMonetized {
-    NSLog(@"Logged custom youtubereborn");
     return 0;
 }
 %end
 %hook YTVASTAd
 - (BOOL)isForecastingAd {
-    NSLog(@"Logged custom youtubereborn");
     return 0;
 }
 - (void)setForecastingAd:(BOOL)arg1 {
-    NSLog(@"Logged custom youtubereborn");
     arg1 = 0;
     %orig;
 }
 - (BOOL)isSkippable {
-    NSLog(@"Logged custom youtubereborn");
     return 1;
 }
 %end
